@@ -1,8 +1,6 @@
-The design for this webiste is free for personal and commercial use under the CCA 3.0 license
-
 Credits:
 
-	Webiste Design:
+	Webiste Design: The design for this webiste is free for personal and commercial use under the CCA 3.0 license
 		Prologue by HTML5 UP (@ajlkn, html5up.net)
 
 	Icons:
