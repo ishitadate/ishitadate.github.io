@@ -147,15 +147,17 @@ input, select, textarea {
 		text-align: left;
 		/*font-weight: bold*/
 	}
-
-		h4.alt strong {
+		h4 strong {
 			font-weight: bold
 		}
 
+		h4.alt {
+			text-align: center;
+		}
+		
 	h5 {
 		font-size: 1em;
 		text-align: left;
-		/*font-weight: bold*/
 	}
 
 	header {
