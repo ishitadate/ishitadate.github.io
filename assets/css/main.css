@@ -128,18 +128,21 @@ input, select, textarea {
 	h2 {
 		font-size: 3em;
 		letter-spacing: -1px;
+		/*color: red;*/
 	}
 
 		h2.alt {
-			color: #888;
+			color: #f5fafa
+			/*color: red;*/
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #e6e8e8
 			}
 
 	h3 {
 		font-size: 1.5em;
+		color: #f5fafa;
 	}
 
 	h4 {
@@ -2122,6 +2125,13 @@ input, select, textarea {
 					color: #fff;
 				}
 
+
+		#header .cover {
+			max-width: 70%;
+			background-color: #ffffff;
+			opacity: 0.6;
+		}	
+
 	#logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
@@ -2288,7 +2298,7 @@ input, select, textarea {
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-image: url("../../images/phillySkyline.jpg");
 			}
 
 /* Wide */
