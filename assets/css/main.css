@@ -122,27 +122,28 @@ input, select, textarea {
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			color: inherit;
 		}
 
 	h2 {
 		font-size: 3em;
 		letter-spacing: -1px;
-		/*color: red;*/
 	}
 
 		h2.alt {
-			color: #f5fafa
-			/*color: red;*/
+			color: #f8f8f8;
+			position: relative;
+			display: inline-block;
 		}
 
 			h2.alt strong {
-				color: #e6e8e8
+				font-weight: bold;
+				color: #ffffff;
 			}
 
 	h3 {
 		font-size: 1.5em;
-		color: #f5fafa;
+		color: #f8f8f8;
 	}
 
 	h4 {
@@ -1966,6 +1967,7 @@ input, select, textarea {
 			background: #eee;
 		}
 
+
 /* Button */
 
 	input[type="button"],
@@ -2011,8 +2013,14 @@ input, select, textarea {
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
-		margin-bottom: 40px;
+		display: block;
+		border-radius: 0.35em;
+		padding: 0.75em 0.75em 0.75em 0.75em;
+		background: rgba(48, 48, 48, 0.5);
+		width: 60%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 		.item header {
@@ -2026,8 +2034,8 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
-/* Icons */
-
+/* 
+s */
 	.icon {
 		text-decoration: none;
 		text-decoration: none;
@@ -2299,6 +2307,7 @@ input, select, textarea {
 
 			#main > section.four {
 				background-image: url("../../images/phillySkyline.jpg");
+				background-position: center top;
 			}
 
 /* Wide */
