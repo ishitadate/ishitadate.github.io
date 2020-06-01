@@ -625,6 +625,11 @@ input[type="checkbox"] { display: inline; }
     margin: 0 auto;
 }
 
+.column.right, .columns.right  {
+   float: right;
+   margin: 0 auto;
+}
+
 /* removed gutters */
 .row.collapsed > .column,
 .row.collapsed > .columns,
