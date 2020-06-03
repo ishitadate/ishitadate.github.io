@@ -212,23 +212,7 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
 #about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
 
 
 /* ------------------------------------------------------------------ */
@@ -251,6 +235,15 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#resume h2 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#resume h2 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
@@ -285,6 +278,22 @@ ul#nav li.current a { color: #F06000; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+#resume .download {
+   float: right;
+}
+#resume .download .button {
+   margin-top: 6px;
+   background: #11ABB0;
+   color: #444;
+}
+#resume .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#resume .download .button i {
+   font-size: 20px;
 }
 
 /*----------------------------------------------*/
@@ -593,7 +602,8 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 48px;
 }
 #call-to-action h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   /*font: 18px/24px 'opensans-bold', sans-serif;*/
+   font: 18px/34px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -601,13 +611,13 @@ ul#nav li.current a { color: #F06000; }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
    font-family: 'FontAwesome';
-   content: "\f0ac";
+  content: "\f0ac";
 	padding-right: 10px;
 	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
+  line-height: 72px;
+  text-align: left;
+  float: left;
+  color: #fff;
 }
 #call-to-action .action {
    margin-top: 12px;
