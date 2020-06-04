@@ -164,12 +164,12 @@ ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
-   display: inline-block;
-   padding: 8px 13px;
-   line-height: 32px;
-	text-decoration: none;
-   text-align: left;
-   color: #fff;
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -590,6 +590,10 @@ ul#nav li.current a { color: #F06000; }
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
+}
+
+.profile-page .profile-tabs {
+  margin-top: 4.284rem;
 }
 
 /* ------------------------------------------------------------------ */
