@@ -187,10 +187,10 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
+  background: #2B2B2B;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -199,16 +199,17 @@ ul#nav li.current a { color: #F06000; }
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
-   margin-bottom: 12px;
+   /*margin-bottom: 12px;*/
 }
 #about p {
-   line-height: 30px;
-   color: #7A7A7A;
+  font: 17px/30px 'opensans-bold', sans-serif;
+  line-height: 30px;
+  color: #7A7A7A;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 170px;
+   height: 170px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
