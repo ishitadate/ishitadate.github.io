@@ -294,7 +294,8 @@ ul#nav li.current a { color: #F06000; }
    color: #2B2B2B;
 }
 #resume .download .button i {
-   font-size: 20px;
+  margin-right: 15px;
+  font-size: 20px;
 }
 
 /*----------------------------------------------*/
