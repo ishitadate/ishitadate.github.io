@@ -817,21 +817,17 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+   font: 24px/30px 'opensans-bold', sans-serif;
+   text-align: center;
    letter-spacing: 3px;
    color: #EBEEEE;
-   margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
 #contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
-   text-align: left;
-   float: left;
+   text-align: center;
+   float: center;
    color: #ebeeee;
 }
 
@@ -854,7 +850,7 @@ call-to-action .button {
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	float: left;
+	float: center;
    width: 26%;
 }
 #contact input,
