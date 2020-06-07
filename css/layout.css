@@ -817,7 +817,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 24px/30px 'opensans-bold', sans-serif;
+   font: 24px/30px 'opensans', sans-serif;
    text-align: center;
    letter-spacing: 3px;
    color: #EBEEEE;
