@@ -252,6 +252,10 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
+#resume .tab{
+   margin-left: 40px;
+}
+
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
