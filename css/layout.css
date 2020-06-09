@@ -202,7 +202,7 @@ ul#nav li.current a { color: #F06000; }
    /*margin-bottom: 12px;*/
 }
 #about p {
-  font: 17px/30px 'opensans-bold', sans-serif;
+  font: 17px/30px 'opensans', sans-serif;
   line-height: 30px;
   color: #7A7A7A;
 }
